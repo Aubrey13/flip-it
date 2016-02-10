@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\NewBehaviourScript.cs" />
+     <Compile Include="Assets\itsweird.cs" />
      <Compile Include="Assets\something.cs" />
      <Compile Include="Assets\syntax and convertions.cs" />
  <Reference Include="UnityEngine.UI">

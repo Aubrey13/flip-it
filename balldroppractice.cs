@@ -21,7 +21,7 @@ public class NewBehaviourScript : MonoBehaviour {
 				}
 				else if(balldrop<balldropnobounce);
 				{
-					Debug.Log(“ball won’t bounce”)
+					Debug.Log(“Ball won’t bounce”)
 					{
 						else
 						{

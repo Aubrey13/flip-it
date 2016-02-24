@@ -47,9 +47,12 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\NewBehaviourScript.cs" />
+     <Compile Include="Assets\arrays.cs" />
      <Compile Include="Assets\itsweird.cs" />
+     <Compile Include="Assets\loops.cs" />
+     <Compile Include="Assets\playercontrol.cs" />
      <Compile Include="Assets\something.cs" />
-     <Compile Include="Assets\syntax and convertions.cs" />
+     <Compile Include="Assets\syntaxandconvertions.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

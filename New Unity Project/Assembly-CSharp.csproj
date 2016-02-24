@@ -50,7 +50,6 @@
      <Compile Include="Assets\arrays.cs" />
      <Compile Include="Assets\itsweird.cs" />
      <Compile Include="Assets\loops.cs" />
-     <Compile Include="Assets\playercontrol.cs" />
      <Compile Include="Assets\something.cs" />
      <Compile Include="Assets\syntaxandconvertions.cs" />
  <Reference Include="UnityEngine.UI">

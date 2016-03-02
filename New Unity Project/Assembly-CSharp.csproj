@@ -46,10 +46,14 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Enemy Spawn.cs" />
      <Compile Include="Assets\NewBehaviourScript.cs" />
+     <Compile Include="Assets\Timer.cs" />
      <Compile Include="Assets\arrays.cs" />
      <Compile Include="Assets\itsweird.cs" />
      <Compile Include="Assets\loops.cs" />
+     <Compile Include="Assets\playercontrol.cs" />
+     <Compile Include="Assets\playerhealth.cs" />
      <Compile Include="Assets\something.cs" />
      <Compile Include="Assets\syntaxandconvertions.cs" />
  <Reference Include="UnityEngine.UI">

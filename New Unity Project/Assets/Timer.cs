@@ -3,18 +3,15 @@ using System.Collections;
 
 public class NewBehaviourScript1 : MonoBehaviour {
 
-	public float Timer;
-
-	void Start () {
-	
-	}
+	public float amountTime;
 
 	void Update () {
 
-		Time.DeltTime
-		{
-			If(Timer < 0)
-					Destroy(gameObject);
+		amountTime -= Time.deltaTime;
+	
+			if(amountTime < 0){
+			Destroy(gameObject);
+		}
 
 	}
 }

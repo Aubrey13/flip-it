@@ -1,28 +1,39 @@
 ﻿using UnityEngine.UI;
+using UnityEngine;
+
 using System.Collections;
 
 public class playerhealth : MonoBehaviour {
-	public text healthText;
-	private int health = 20;
-	private int damageAmount = 1;
+	public Text healthText;
+	private int health;
+	private int damageAmount;
 
 
 
 	void Start () {
-		OnCollisionEnter(collideEnemy)
-			If(collideEnemy.transform.tag == "Enemy";
-			{ 
-				health --1; healthText print; 
-			}
+		healthText.text = "20";
+		int health = 20;
+		int damageAmount = 2;
 	}
 	
-	void Update () {
-		public int CollideEnemy
-			
-		void OnCollisionEnter(collideEnemy){
-			If(collideEnemy.transform.tag == "Enemy");
+	void Update ()
 			{
-				print("crash Enemy")
+			/*	int collideEnemy;
+
+				void OnCollisionEnter(collideEnemy)
+					if(collideEnemy.transform.tag == "Enemy";
+					   { 
+						health --1; healthText print;
+					else if(collisonEnemy.transform.tag == "killZone" 
+						{ */
+							//Application.LoadLevel(*indexOfScene*) when scene is added to build list.
+			}
+
+			
+		void  OnCollisionEnter(Collision collideEnemy){
+			if(collideEnemy.transform.tag == "Enemy");
+			{
+			print("crash Enemy");
 			}
 	}
 }

@@ -19,7 +19,7 @@ using System.Collections;
 			
 			myOtherClass = new AnotherClass();
 			myOtherClass.FruitMachine(alpha, myOtherClass.apples);
-
+			
 
 		}
 		

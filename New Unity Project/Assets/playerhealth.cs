@@ -30,13 +30,32 @@ public class playerhealth : MonoBehaviour {
 						{ 
 							//Application.LoadLevel(*indexOfScene*) when scene is added to build list.
 			}
+		int damageFunction (int damageNum) {
+		//int newHealth =Parameter - damage variable;
+		int ret;
 
+
+
+		//if(newHealth < 0) 
+		//Application.LoadLevel(*indexOfScene*)
+
+
+
+			
 			
 
 	}
 }
+
 /* 
-     * Variables:
+ * A damage function, int return type, parameter: int. Name this function whatever you want
+     *      Create a variable for the new health value
+     *      Have the new health variable equal the parameter variable minus the damage variable
+     *      If (the new health value is less than 0)
+     *          reload the level
+     *      Lastly, return the new health variable
+
+		 * Variables:
      * A public Text for the health text
      * A private int for the health
      * A private int for the damage amount

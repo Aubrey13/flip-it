@@ -53,6 +53,7 @@
      <Compile Include="Assets\NewBehaviourScript.cs" />
      <Compile Include="Assets\Timer.cs" />
      <Compile Include="Assets\arrays.cs" />
+     <Compile Include="Assets\classandsubclass.cs" />
      <Compile Include="Assets\enemy movement.cs" />
      <Compile Include="Assets\itsweird.cs" />
      <Compile Include="Assets\loops.cs" />

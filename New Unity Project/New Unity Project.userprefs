@@ -1,21 +1,15 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/another class.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/classandsubclass.cs">
     <Files>
-      <File FileName="Assets/Bool.cs" Line="14" Column="4" />
-      <File FileName="Assets/AnotherClass.cs" Line="11" Column="24" />
-      <File FileName="Assets/scope1.cs" Line="1" Column="1" />
-      <File FileName="Assets/enemy movement.cs" Line="1" Column="1" />
-      <File FileName="Assets/Timer.cs" Line="12" Column="19" />
-      <File FileName="Assets/Enemy Damage.cs" Line="8" Column="5" />
-      <File FileName="Assets/Enemy Spawn.cs" Line="45" Column="5" />
-      <File FileName="Assets/another class.cs" Line="4" Column="1" />
+      <File FileName="Assets/playerhealth.cs" Line="12" Column="2" />
+      <File FileName="Assets/classandsubclass.cs" Line="13" Column="8" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State expanded="True">
           <Node name="Assembly-CSharp" expanded="True">
-            <Node name="another class.cs" selected="True" />
+            <Node name="classandsubclass.cs" selected="True" />
           </Node>
         </State>
       </Pad>

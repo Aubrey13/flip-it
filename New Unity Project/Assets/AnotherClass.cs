@@ -9,7 +9,8 @@ public class AnotherClass
 	
 	private int stapler;
 	private int sellotape;
-	
+
+
 	
 	public void FruitMachine (int a, int b)
 	{

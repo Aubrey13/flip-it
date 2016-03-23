@@ -45,7 +45,7 @@ public class EnemySpawner : MonoBehaviour {
 	}
 }
 
-//
+
 using UnityEngine;
 using System.Collections;
 
@@ -143,6 +143,6 @@ public class EnemySpawner : MonoBehaviour {
      *               
      * Incrementing - This will increase the value of an int variable by one. It is typed like this:
      *                *intVariable*++;
-     */
+
 }
-//
+/*

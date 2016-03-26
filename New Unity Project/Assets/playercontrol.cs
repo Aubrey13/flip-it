@@ -11,9 +11,6 @@ public class playercontrol : MonoBehaviour {
 
 			rigidBody = GetComponent<Rigidbody>();
 		}
-			                 
-				
-			  
 	
 	// Update is called once per frame
 	void Update () {

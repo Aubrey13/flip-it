@@ -1,4 +1,4 @@
-﻿/*using UnityEngine;
+﻿using UnityEngine;
 using System.Collections;
 
 public class EnemyDamage : MonoBehaviour {
@@ -6,34 +6,25 @@ public class EnemyDamage : MonoBehaviour {
 	int Collision;
 	
 	void Start () {
-		rigidBody = GetComponent<Rigidbody>();
+		rigidBody = GetComponent<Rigidbody> ();
+	}
 
 	// Update is called once per frame
 	void Update () {
 		rigidBody = GetComponent<Rigidbody>();
-		void OnCollisionEnter(Collision hit)
-		{
-			run code here, what code are we supposed to run?
-		}
-		If(collision.transform.tag == "KillZone") 
-		{
-		Destroy(gameObject);
-		}
-		If(collision.transform.tag == "Enemy")
-		{
-		Destroy(gameObject);
-		}
+		void OnCollisionEnter(Collision)
+	
+			if(Collision.transform.tag == "KillZone") 
+			{
+			Destroy(gameObject);
+			}
+			else if(Collision.Transform.tag == "Enemy")
+			{
+			Destory(GameObject);
+			}
 
-	}
 }
 
-/*
-using UnityEngine;
-using System.Collections;
-using UnityEngine.UI;
-
-public class EnemyDamage : MonoBehaviour
-{
     /*
      * The OnCollisionEnter function, void return type, parameters: Collision
      *      If (the tag of the Collision parameter equals the KillZone tag)

@@ -15,10 +15,7 @@ public class playerhealth : MonoBehaviour {
 		int health = 20;
 		int damageAmount = 2;
 	}
-	
 
-
-		
 	void OnCollisionEnter(Collision Hit)
 	{
 		if(Hit.transform.tag == "Enemy")
@@ -26,24 +23,22 @@ public class playerhealth : MonoBehaviour {
 						health --1; healthText print;
 		 }
 
-			else if(collisonEnemy.transform.tag == "killZone" 
+			else if(collisonEnemy.transform.tag == "killZone") 
 						{ 
-							//Application.LoadLevel(*indexOfScene*) when scene is added to build list.
+							Application.LoadLevel(*indexOfScene*)
 			}
 		int damageFunction (int damageNum) {
-		//int newHealth =Parameter - damage variable;
+		
+		int newHealth =Parameter - damage variable;
+
+		}
 		int ret;
 
 
-
-		//if(newHealth < 0) 
-		//Application.LoadLevel(*indexOfScene*)
-
-
-
-			
-			
-
+		if(newHealth < 0)
+		{
+			Application.LoadLevel(*indexOfScene*)
+		}
 	}
 }
 

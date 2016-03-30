@@ -2,29 +2,16 @@
 using System.Collections;
 
 public class EnemyDamage : MonoBehaviour {
-	
-	int Collision;
-	
-	void Start () {
-		rigidBody = GetComponent<Rigidbody> ();
-	}
+			
+		void OnCollisionEnter(Collision hit)
+		{
+			if(hit.transform.tag == "Kill Zone")
+				{
+				Destroy(gameObject);
+				}
 
-	// Update is called once per frame
-	void Update () {
-		rigidBody = GetComponent<Rigidbody>();
-		void OnCollisionEnter(Collision)
-	
-			if(Collision.transform.tag == "KillZone") 
-			{
-			Destroy(gameObject);
-			}
-			else if(Collision.Transform.tag == "Enemy")
-			{
-			Destory(GameObject);
-			}
-
+		}	 	
 }
-
     /*
      * The OnCollisionEnter function, void return type, parameters: Collision
      *      If (the tag of the Collision parameter equals the KillZone tag)
@@ -71,5 +58,4 @@ public class EnemyDamage : MonoBehaviour {
      *           to use this along with the timer so that the enemies that have spawned don't stick around
      *           forever.
      */
-}
 //

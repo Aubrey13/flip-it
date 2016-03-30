@@ -1,4 +1,4 @@
-﻿/*using UnityEngine;
+﻿using UnityEngine;
 using System.Collections;
 
 public class playercontrol : MonoBehaviour {
@@ -32,7 +32,8 @@ public class playercontrol : MonoBehaviour {
 	}
 }
 
-//
+
+/*
 using UnityEngine;
 using System.Collections;
 
@@ -101,6 +102,6 @@ public class PlayerControl : MonoBehaviour {
      *
      *                    Replace *nameOfRigidbodyVariable* with the name of the Rigidbody variable and replace *movementSpeedVariable* with 
      *                    the name of the movement speed variable.
-     */
+     *
 }
-//
+*/

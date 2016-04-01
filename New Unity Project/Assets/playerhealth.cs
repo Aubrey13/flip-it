@@ -4,40 +4,31 @@ using UnityEngine;
 using System.Collections;
 
 public class playerhealth : MonoBehaviour {
+
 	public Text healthText;
 	private int health;
 	private int damageAmount;
 
-
-
 	void Start () {
-		healthText.text = "20";
-		int health = 20;
-		int damageAmount = 2;
+		health = 20;
+		damageAmount = 1;
 	}
 
 	void OnCollisionEnter(Collision Hit)
 	{
 		if(Hit.transform.tag == "Enemy")
-		 { 
-						health --1; healthText print;
+		{ int damageFunction  =(health)
+			health == healthText;
+			health --1; 
 		 }
-
-			else if(collisonEnemy.transform.tag == "killZone") 
-						{ 
-							Application.LoadLevel(*indexOfScene*)
-			}
-		int damageFunction (int damageNum) {
-		
-		int newHealth =Parameter - damage variable;
-
-		}
-		int ret;
-
+	
+		int damageFunction 
+		/*newHealth == (Parametervariable- damageAmount)
+		{ //how do you make the damage function? 
 
 		if(newHealth < 0)
 		{
-			Application.LoadLevel(*indexOfScene*)
+			Application.LoadLevel("AubsGame")
 		}
 	}
 }

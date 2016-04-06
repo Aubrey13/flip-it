@@ -4,18 +4,15 @@ using System.Collections;
 public class enemymovement : MonoBehaviour {
 
 	private Rigidbody rigidBody;
-	Vector3 direction = 180; 
+	Vector3 direction; 
 	public float speed;
 
 	void Start () {
 		rigidBody = GetComponent<Rigidbody>();
-		direction = new Vector(0, Random.Range(0, 360), 0);
-		transform.eulerAngles = direction
-			transform.forward
-	
+		direction = new Vector3(0, Random.Range(0, 360), 0);
+		transform.eulerAngles = direction;
 	}
-	
-	// Update is called once per frame
+
 	void Update () {
 	
 		rigidBody.AddRelativeForce(transform.forward * speed);
@@ -88,5 +85,4 @@ public class EnemyMovement : MonoBehaviour {
      *                  
      *                    *rigidbodyVariable*.AddRelativeForce(transform.forward * speed);
      */
-}
 //

@@ -1,19 +1,19 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/enemy movement.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/playerhealth.cs">
     <Files>
-      <File FileName="Assets/Enemy Damage.cs" Line="8" Column="6" />
-      <File FileName="Assets/playercontrol.cs" Line="42" Column="15" />
-      <File FileName="Assets/Timer.cs" Line="17" Column="2" />
-      <File FileName="Assets/Enemy Spawn.cs" Line="16" Column="3" />
+      <File FileName="Assets/Enemy Damage.cs" Line="1" Column="1" />
+      <File FileName="Assets/playercontrol.cs" Line="1" Column="1" />
+      <File FileName="Assets/Timer.cs" Line="1" Column="1" />
+      <File FileName="Assets/Enemy Spawn.cs" Line="1" Column="1" />
       <File FileName="Assets/enemy movement.cs" Line="29" Column="1" />
-      <File FileName="Assets/playerhealth.cs" Line="34" Column="4" />
+      <File FileName="Assets/playerhealth.cs" Line="22" Column="16" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State expanded="True">
           <Node name="Assembly-CSharp" expanded="True">
-            <Node name="enemy movement.cs" selected="True" />
+            <Node name="playerhealth.cs" selected="True" />
           </Node>
         </State>
       </Pad>

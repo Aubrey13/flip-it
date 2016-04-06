@@ -16,20 +16,24 @@ public class playerhealth : MonoBehaviour {
 
 	void OnCollisionEnter(Collision Hit)
 	{
-		if(Hit.transform.tag == "Enemy")
-		{ int damageFunction  =(health)
-			health == healthText;
-			health --1; 
-		 }
+		if (Hit.transform.tag == "Enemy") { 
+			health = DamagePlayer (health);
+			healthText.text = health.ToString ();
+		} else if (Hit.transform.tag == "Kill Zone") 
+		{
+			Application.LoadLevel("AubsGame");
+		}
 	
-		int damageFunction 
-		/*newHealth == (Parametervariable- damageAmount)
-		{ //how do you make the damage function? 
-
+	}
+	int DamagePlayer (int CurrentHealth)
+	{
+		int newHealth;
+		newHealth = CurrentHealth - damageAmount;
 		if(newHealth < 0)
 		{
-			Application.LoadLevel("AubsGame")
+			Application.LoadLevel("AubsGame");
 		}
+		return newHealth;
 	}
 }
 

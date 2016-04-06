@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+﻿/*using UnityEngine;
 using System.Collections;
 
 public class arrays : MonoBehaviour {
@@ -20,3 +20,4 @@ public class arrays : MonoBehaviour {
 	
 	}
 }
+*/

@@ -10,9 +10,9 @@ public class EnemySpawner : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 
-		delay = 5;
+		delay = 5f;
 
-		InvokeRepeating (SpawningEnemies, 0, delay);
+		InvokeRepeating ("SpawningEnemies", 0f, delay);
 	}
 
 	
@@ -127,5 +127,4 @@ public class EnemySpawner : MonoBehaviour {
      * Incrementing - This will increase the value of an int variable by one. It is typed like this:
      *                *intVariable*++;
 
-}
-/*
+}*/

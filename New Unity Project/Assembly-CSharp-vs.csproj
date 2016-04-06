@@ -48,13 +48,13 @@
   <ItemGroup>
      <Compile Include="Assets\AnotherClass.cs" />
      <Compile Include="Assets\Bool.cs" />
-     <Compile Include="Assets\Enemy Damage.cs" />
      <Compile Include="Assets\Enemy Spawn.cs" />
+     <Compile Include="Assets\EnemyDamage.cs" />
      <Compile Include="Assets\NewBehaviourScript.cs" />
      <Compile Include="Assets\Timer.cs" />
      <Compile Include="Assets\arrays.cs" />
      <Compile Include="Assets\classandsubclass.cs" />
-     <Compile Include="Assets\enemy movement.cs" />
+     <Compile Include="Assets\enemymovement.cs" />
      <Compile Include="Assets\enumerations.cs" />
      <Compile Include="Assets\itsweird.cs" />
      <Compile Include="Assets\loops.cs" />

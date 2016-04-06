@@ -48,8 +48,8 @@
   <ItemGroup>
      <Compile Include="Assets\AnotherClass.cs" />
      <Compile Include="Assets\Bool.cs" />
-     <Compile Include="Assets\Enemy Spawn.cs" />
      <Compile Include="Assets\EnemyDamage.cs" />
+     <Compile Include="Assets\EnemySpawner.cs" />
      <Compile Include="Assets\NewBehaviourScript.cs" />
      <Compile Include="Assets\Timer.cs" />
      <Compile Include="Assets\arrays.cs" />

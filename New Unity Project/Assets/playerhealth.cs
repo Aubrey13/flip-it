@@ -15,9 +15,11 @@ public class playerhealth : MonoBehaviour {
 	}
 
 	void OnCollisionEnter(Collision Hit)
-	{
+	{ 
+		print (Hit.transform.tag);
 		if (Hit.transform.tag == "Enemy") { 
 			health = DamagePlayer (health);
+			print (health);
 			healthText.text = health.ToString ();
 		} else if (Hit.transform.tag == "Kill Zone") 
 		{

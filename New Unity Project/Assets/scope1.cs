@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+﻿/*using UnityEngine;
 using System.Collections;
 	
 	public class scope1 : MonoBehaviour
@@ -38,7 +38,7 @@ using System.Collections;
 			Debug.Log("Alpha is set to: " + alpha);
 
 		}
-	}
+	}*/
 	
 	
 	

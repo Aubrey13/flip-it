@@ -1,18 +1,15 @@
-﻿/*using UnityEngine;
+﻿using UnityEngine;
 using System.Collections;
 
 public class arrays : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
-		string[] strings = new string[3];
-	
-	strings[0] = "First string";
-	strings[1] = "Second string";
-	strings[2] = "Third string";
+	int[] MyInt = {3, 20, 41};
+	public GameObject [] players
 
-	foreach (string item in strings) {
-			print (item);
+	void Start () {
+
+		players = gameObject.FindGameObjectWithTag ("Player");
+	
 		}
 	}
 	// Update is called once per frame

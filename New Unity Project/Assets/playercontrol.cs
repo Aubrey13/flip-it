@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+﻿/*using UnityEngine;
 using System.Collections;
 
 public class playercontrol : MonoBehaviour {
@@ -66,7 +66,7 @@ public class PlayerControl : MonoBehaviour {
      *                          //Instantiate bullet here
      *                      }
      */
-}
+/*}
 /*
 using UnityEngine;
 using System.Collections;

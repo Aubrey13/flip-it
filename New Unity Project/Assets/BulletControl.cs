@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+﻿/*using UnityEngine;
 using System.Collections;
 
 public class Bu : MonoBehaviour {
@@ -151,4 +151,4 @@ public class BulletControl : MonoBehaviour
      *
      *                            *enemyDamageVariable*.*damageFunctionName*(*damageVariable*);
      */
-}
+

@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿/*
+ * using UnityEngine;
 using System.Collections;
 
 public class EnemyDamage : MonoBehaviour {
@@ -45,7 +46,7 @@ public class EnemyDamage : MonoBehaviour
     *                            
     *                            Destroy(gameObject);
     */
-}
+/*}
      * The OnCollisionEnter function, void return type, parameters: Collision
      *      If (the tag of the Collision parameter equals the KillZone tag)
      *          Destroy this GameObject

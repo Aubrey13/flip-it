@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+﻿/*using UnityEngine;
 using System.Collections;
 
 public class enemymovement : MonoBehaviour {
@@ -94,8 +94,7 @@ public class EnemyMovementAssignment : MonoBehaviour {
      *
      *                                                  *EnemyDamageScript*.*enumName*.*constant*
      */
-}
-
+/*}
 /*using UnityEngine;
 using System.Collections;
 

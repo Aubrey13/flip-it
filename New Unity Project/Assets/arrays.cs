@@ -1,26 +1,21 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class arrays : MonoBehaviour {
+public class Arrays : MonoBehaviour {
 
-	int[] MyInt = {3, 20, 41};
-	int [] My int = new int [5];
-	
-	public GameObject [] players
+	public int[] MyIntArray = {2,3};
 
 	void Start () {
+		MyIntArray [0] = 2;
+		MyIntArray [1] = 3;
 
-		MyInt [0] = 3;
-		MyInt [1] = 20;
-		MyInt [2] = 41;
-
-		players = gameObject.FindGameObjectWithTag ("Player");
-	
+		for (int i = 0; i < MyIntArray.Length; i++) {
+			Debug.Log ("The Name of" +i+ "is" + MyIntArray[i]);
 		}
+			
 	}
+
 	// Update is called once per frame
 	void Update () {
-	
 	}
 }
-*/

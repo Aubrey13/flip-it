@@ -3,7 +3,7 @@ using System.Collections;
 
 public class enumerations : MonoBehaviour {
 
-	enum Direction {North, South, East, West}
+	enum Direction {North, South, East, West};
 
 
 	// Use this for initialization
@@ -13,7 +13,6 @@ public class enumerations : MonoBehaviour {
 		MyDirection = Direction.North;
 	
 		ReverseDirection (MyDirection);
-
 
 	}
 

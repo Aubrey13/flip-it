@@ -63,6 +63,7 @@
      <Compile Include="Assets\playerhealth.cs" />
      <Compile Include="Assets\scope1.cs" />
      <Compile Include="Assets\something.cs" />
+     <Compile Include="Assets\switchstatement.cs" />
      <Compile Include="Assets\syntaxandconvertions.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>

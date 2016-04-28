@@ -6,10 +6,12 @@ public class playercontrol : MonoBehaviour {
 	public float rotateSpeed;
 	public float movementSpeed;
 	private Rigidbody rigidBody;
-	// Use this for initialization
+	public GameObject theBullet;
+
 	void Start () {
 
 			rigidBody = GetComponent<Rigidbody>();
+
 		}
 	
 	// Update is called once per frame
@@ -18,17 +20,21 @@ public class playercontrol : MonoBehaviour {
 		{
 			transform.Rotate(new Vector3(0, -rotateSpeed, 0));
 		}
-		if(Input.GetKey (KeyCode.RightArrow))
+		if(Input.GetKey(KeyCode.RightArrow))
 		{
 			transform.Rotate(new Vector3(0, rotateSpeed, 0));
 		}
-		if(Input.GetKey (KeyCode.UpArrow))
+		if(Input.GetKey(KeyCode.UpArrow))
 		{
 			rigidBody.AddRelativeForce(0, 0, movementSpeed);
 		}				                
 		if (Input.GetKey (KeyCode.DownArrow)) {
 			rigidBody.AddRelativeForce (0, 0, -movementSpeed);
 		}
+		if if(Input.GetKeyDown(KeyCode.Space))
+        {
+			Instantiate(theBullet, transform.position, transform.rotation);
+        }
 	}
 }
 /*

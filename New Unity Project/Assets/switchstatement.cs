@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+﻿/*using UnityEngine;
 using System.Collections;
 
 public class switchstatement : MonoBehaviour {
@@ -26,3 +26,4 @@ public class switchstatement : MonoBehaviour {
 	
 	}
 }
+*/

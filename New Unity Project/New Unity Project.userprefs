@@ -1,13 +1,13 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/switchstatement.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/BulletControl.cs">
     <Files>
-      <File FileName="Assets/switchstatement.cs" Line="19" Column="1" />
-      <File FileName="Assets/enumerations.cs" Line="31" Column="1" />
+      <File FileName="Assets/BulletControl.cs" Line="27" Column="3" />
+      <File FileName="Assets/switchstatement.cs" Line="1" Column="1" />
+      <File FileName="Assets/enumerations.cs" Line="1" Column="1" />
       <File FileName="Assets/playercontrol.cs" Line="1" Column="1" />
       <File FileName="Assets/enemymovement.cs" Line="1" Column="1" />
-      <File FileName="Assets/BulletControl.cs" Line="1" Column="1" />
-      <File FileName="Assets/EnemyDamage.cs" Line="1" Column="1" />
+      <File FileName="Assets/EnemyDamage.cs" Line="7" Column="13" />
       <File FileName="Assets/classandsubclass.cs" Line="1" Column="1" />
       <File FileName="Assets/Arrays.cs" Line="1" Column="1" />
     </Files>
@@ -15,7 +15,7 @@
       <Pad Id="ProjectPad">
         <State expanded="True">
           <Node name="Assembly-CSharp" expanded="True">
-            <Node name="switchstatement.cs" selected="True" />
+            <Node name="BulletControl.cs" selected="True" />
           </Node>
         </State>
       </Pad>

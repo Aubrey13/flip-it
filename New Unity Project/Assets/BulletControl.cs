@@ -1,28 +1,54 @@
 ﻿/*using UnityEngine;
 using System.Collections;
 
-public class Bu : MonoBehaviour {
+public class BulletControl : MonoBehaviour {
 	Rigidbody rigidBody;
 	public float bulletSpeed;
 	int weakD;
 	int strongD;
 	int sstrongD;
-
-
-	// Use this for initialization
-	void Start () {
-	rigidBody = GetComponent<Rigidbody>();
+	}
+	
+	void Start () 
+	{ 
+		rigidBody = GetComponent<Rigidbody>();
 		weakD = 1;
 		strongD = 2;
 		sstrongD = 3;
 	}
-	
-	// Update is called once per frame
-	void Update () {
-		rigidBody.AddForce(transform.forward * speed);
-	}
-}
 
+	void Update () 
+		{
+		rigidBody.AddForce(transform.forward * speed);
+		}
+	void OnTriggerEnter(Collider Hitit)
+	{
+
+        if(Hitit.transform.tag == ("Enemy")
+	   {
+		EnemyDamage enemyDamage;
+		enemyDamage = Hitit.transform.GetComponent<EnemyDamage>();
+	   	Destroy(gameObject);
+	   }
+	}
+			switch(enemyDamagetype)
+				{case 1:
+				OnCollision(weakD) 
+				break;
+				case 2:
+				OnCollision(strongD)
+				break;
+				case 3:
+				OnCollision(sstrongD)
+				break;
+				default:
+				print("not Enemy")
+				break;
+				}
+		}
+		
+}
+/*
 using UnityEngine;
 using System.Collections;
 

@@ -6,11 +6,19 @@ public class enemymovement : MonoBehaviour {
 	private Rigidbody rigidBody;
 	Vector3 direction; 
 	public float speed;
+	GameObject Player;
+	EnemyDamage MyEnemyDamage;
 
 	void Start () {
+		MyEnemyDamage = GetComponent<EnemyDamage>();
 		rigidBody = GetComponent<Rigidbody>();
 		direction = new Vector3(0, Random.Range(0, 360), 0);
 		transform.eulerAngles = direction;
+
+		Player = GameObject.FindGameObjectWithTag("Player");
+		if (the type variable in the enemy damage script is equal to the first enum constant in the enemy damage script) - place this if statement at the bottom of the function
+     *          Move the line that sets the random direction of the enemy into this If statement
+     */
 	}
 
 	void Update () {

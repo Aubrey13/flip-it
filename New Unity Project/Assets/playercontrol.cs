@@ -1,4 +1,4 @@
-﻿/*using UnityEngine;
+﻿using UnityEngine;
 using System.Collections;
 
 public class playercontrol : MonoBehaviour {
@@ -31,7 +31,7 @@ public class playercontrol : MonoBehaviour {
 		if (Input.GetKey (KeyCode.DownArrow)) {
 			rigidBody.AddRelativeForce (0, 0, -movementSpeed);
 		}
-		if if(Input.GetKeyDown(KeyCode.Space))
+		if (Input.GetKeyDown(KeyCode.Space))
         {
 			Instantiate(theBullet, transform.position, transform.rotation);
         }

@@ -1,4 +1,4 @@
-﻿/*using UnityEngine;
+﻿using UnityEngine;
 using System.Collections;
 
 public class enemymovement : MonoBehaviour {
@@ -12,46 +12,59 @@ public class enemymovement : MonoBehaviour {
 	void Start () {
 		MyEnemyDamage = GetComponent<EnemyDamage>();
 		rigidBody = GetComponent<Rigidbody>();
-		direction = new Vector3(0, Random.Range(0, 360), 0);
 		transform.eulerAngles = direction;
-
 		Player = GameObject.FindGameObjectWithTag("Player");
-		if (the type variable in the enemy damage script is equal to the first enum constant in the enemy damage script) - place this if statement at the bottom of the function
-     *          Move the line that sets the random direction of the enemy into this If statement
-     */
+
+		if (enemy = Enemy.squares) {
+			direction = new Vector3 (0, Random.Range (0, 360), 0);
+		}
 	}
 
 	void Update () {
-	
-		rigidBody.AddRelativeForce(transform.forward * speed);
 
+	 
+		rigidBody.AddRelativeForce (transform.forward * speed);
+
+	
+		if(enemyType = Enemy.spheres) 
+			{
+			EnemyDamage.Enemy.spheres
+			transform.LookAt(Player.transform);
+			}
+		if else(enemyType = Enemy.cylinders)
+			{
+			EnemyDamage.Enemy.cylinders
+			transform.LookAt(Player.transform);
+			}
+			
 	}
 }
+/*
 using UnityEngine;
 using System.Collections;
 
 public class EnemyMovementAssignment : MonoBehaviour {
-	/*
+
      * Additional Variables:
      * A private GameObject to hold a reference to the player
      * A private variable with the type being your Enemy Damage Script
-     */
+
 	
-	/*
+	
      * Additional Lines in the Start Function:
      *      Use FindGameObjectWithTag with the player's tag in order to get the reference to the player - place this line above the ones that were there before
      *      Use GetComponent to get the reference to your enemy damage script - place this line above the ones that were there before
      *      If (the type variable in the enemy damage script is equal to the first enum constant in the enemy damage script) - place this if statement at the bottom of the function
      *          Move the line that sets the random direction of the enemy into this If statement
-     */
+
 	
-	/*
+	
      * Additional Lines in the Update Function:
      *      If (the type variable in the enemy damage script is equal to the second enum constant OR the third enum constant in the enemy damage script)
      *          Use the LookAt function with the player's transform.
      */
-	
-	/* **************Explanation and Hints************ 
+
+/* **************Explanation and Hints************ 
      *  Damage Script variable type - When we want to use functions and variables from another script we need to have a variable that uses the script
      *                                as the type. In this script we want to use the enemy damage script. So we would write it like this:
      *                                
@@ -113,22 +126,22 @@ public class EnemyMovement : MonoBehaviour {
      * A public float for the speed
      * A private Vector3 for the direction
      */
-	
-	/*
+
+/*
      * The Start function, void return type, no parameters
      *      Use GetComponent to get the rigidbody reference
      *      Have the direction variable equal a new Vector3 with X and Z being zero and Y being a Random number between 0 and 360.
      *      Have eulerangles equal the direction variable in order to rotate this enemy
      */
-	
-	
-	/*
+
+
+/*
      * The Update function, void return type, no parameters
      *      Using the Rigidbody variable call AddRelativeForce and pass the forward direction times the speed as parameters
      */
-	
-	
-	/* **************Explanation and Hints************
+
+
+/* **************Explanation and Hints************
      * Rigidbody - When attached to a GameObject it adds things like gravity as well as other physics properties to the GameObject.
      *             For the player we want to attach the Rigidbody to it so that we can add a forward force to it when pressing the up arrow key
      *           - To use the Rigidbody we need a variable. The type of this variable is "Rigidbody" instead of "int" and often this variable
@@ -166,5 +179,3 @@ public class EnemyMovement : MonoBehaviour {
      *                  - We'll do this by typing:
      *                  
      *                    *rigidbodyVariable*.AddRelativeForce(transform.forward * speed);
-     */
-//

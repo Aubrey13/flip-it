@@ -1,16 +1,14 @@
-﻿/*
+﻿
  using UnityEngine;
 using System.Collections;
 
 public class EnemyDamage : MonoBehaviour {
 
 	public enum Enemy{squares, spheres, cylinders};
-	public int enemyType;
-	Enemy =enemyType;
-	enemyType = Enemy.squares;
+	public Enemy enemyType;
 	public int enemyHealth;
 
-			
+
 		void OnCollisionEnter(Collision hit)
 		{
 			if(hit.transform.tag == "Kill Zone")
@@ -18,7 +16,16 @@ public class EnemyDamage : MonoBehaviour {
 				Destroy(gameObject);
 				}
 
-		}	 	
+		}
+
+		void DamageFunction (int damageAmount)
+		{
+		enemyHealth -= damageAmount; 
+				if (enemyHealth < 0)
+				{
+				Destroy(gameObject);
+				}
+		}
 }
     /*
      * 

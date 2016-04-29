@@ -1,4 +1,4 @@
-﻿/*using UnityEngine;
+﻿using UnityEngine;
 using System.Collections;
 
 public class BulletControl : MonoBehaviour {
@@ -7,8 +7,8 @@ public class BulletControl : MonoBehaviour {
 	int weakD;
 	int strongD;
 	int sstrongD;
-	}
-	
+
+
 	void Start () 
 	{ 
 		rigidBody = GetComponent<Rigidbody>();
@@ -24,30 +24,30 @@ public class BulletControl : MonoBehaviour {
 	void OnTriggerEnter(Collider Hitit)
 	{
 
-        if(Hitit.transform.tag == ("Enemy")
-	   {
-		EnemyDamage enemyDamage;
+		if (Hitit.transform.tag == ("Enemy"))
+		  	{
+			Destroy(gameObject);
+			}
+
 		enemyDamage = Hitit.transform.GetComponent<EnemyDamage>();
-	   	Destroy(gameObject);
-	   }
-	}
-			switch(enemyDamagetype)
+
+		Destroy(gameObject);
+
+
+		switch(enemyDamage)
 				{case 1:
-				OnCollision(weakD) 
+				DamageFunction(squares);
 				break;
 				case 2:
-				OnCollision(strongD)
+				DamageFunction(spheres);
 				break;
 				case 3:
-				OnCollision(sstrongD)
-				break;
-				default:
-				print("not Enemy")
+				DamageFunction(cylinders);
 				break;
 				}
-		}
-		
-}
+	}
+}		
+
 /*
 using UnityEngine;
 using System.Collections;
